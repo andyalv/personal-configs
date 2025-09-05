@@ -7,6 +7,8 @@
 # fi
 # # -------------------------------- START UP -------------------------------- #
 
+
+
 # -------------------------------- PATH -------------------------------- #
 # Since I come from bash add variables to PATH
 export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:/snap/bin:$PATH
@@ -91,16 +93,16 @@ bindkey '^x' autosuggest-execute
 
 # -------------------------------- FREQUENT PATHS (CD) -------------------------------- #
 # Personal directories
-alias personal='cd /mnt/c/Users/andre/Documents/\[01\]\ Personal/'
+alias personal="cd '/mnt/c/Users/andre/Documents/[01] Personal'"
 alias docs='cd /mnt/c/Users/andre/Documents/'
 alias downloads='cd /mnt/c/Users/andre/Downloads/'
 alias windows='cd /mnt/c/Users/andre'
 
 # School-related directories
-alias semester='cd /mnt/c/Users/andre/Documents/\[02\]\ Escolar/\[01\]\ Universidad/\[08\]\ Octavo\ Semestre/'
-alias semesters='cd /mnt/c/Users/andre/Documents/\[02\]\ Escolar/\[01\]\ Universidad/'
-alias snotes='cd /mnt/c/Users/andre/Documents/\[02\]\ Escolar/\[01\]\ Universidad/notas-escolares'
-alias nsnotes='cd /mnt/c/Users/andre/Documents/\[02\]\ Escolar/\[01\]\ Universidad/notas-escolares && nvim .'
+alias semester="cd '/mnt/c/Users/andre/Documents/[02] Escolar/[01] Universidad/[09] Noveno Semestre'"
+alias semesters="cd '/mnt/c/Users/andre/Documents/[02] Escolar/[01] Universidad'"
+alias snotes="cd '/mnt/c/Users/andre/Documents/[02] Escolar/[01] Universidad/notas-escolares'"
+alias nsnotes="cd '/mnt/c/Users/andre/Documents/[02] Escolar/[01] Universidad/notas-escolares' && nvim ."
 # -------------------------------- FREQUENT PATHS (CD) -------------------------------- #
 
 
@@ -162,10 +164,10 @@ fi
  fi
 
 # Variables
-export Downloads='/mnt/c/Users/andre/Downloads/'
-export Docs='/mnt/c/Users/andre/Documents/'
-export Personal="/mnt/c/Users/andre/Documents/[01] Personal/"
-export WINDOWS="/mnt/c/Users/andre"
+export WIN_DOWNLOADS='/mnt/c/Users/andre/Downloads/'
+export WIN_DOCS='/mnt/c/Users/andre/Documents/'
+export WIN_PERSONAL="/mnt/c/Users/andre/Documents/[01] Personal/"
+export WIN="/mnt/c/Users/andre"
 # -------------------------------- Regular Config -------------------------------- #
 
 # Disable Ctrl+S (XOFF) and Ctrl+Q (XON) flow control
